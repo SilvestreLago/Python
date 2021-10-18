@@ -1,0 +1,6 @@
+n1=float(input('Qual o valor do item? R$'))
+n2=float(input('(Em números decimais: EX: 20% 0.20) Quanto de desconto? '))
+n3=(n1*n2)
+n4=(n1-n3)
+print('Um item que custava R${} com {}% de desconto passou a custar R${}.'.format(n1,n3,n4))
+input('Aperte ENTER para finalizar')

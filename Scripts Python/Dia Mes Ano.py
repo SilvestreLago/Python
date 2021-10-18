@@ -1,0 +1,6 @@
+print('Coloque tudo em números!')
+dia=input ('Que dia você nasceu? ')
+mes=input ('Que mes você nasceu? ')
+ano=input ('Que ano você nasceu? ')
+print('Você nasceu no dia' ,dia, 'do mês',mes,'do ano' ,ano, 'correto?')
+input('Aperte ENTER para finalizar')

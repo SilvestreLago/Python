@@ -1,0 +1,6 @@
+n1=int(input('Quantos dias o carro foi alugado? '))
+n2=int(input('Quantos KM foram rodados? '))
+n3=((n1*60)+(n2*0.15))
+print('O valor usado foram de R$60,00 por dia e, R$0,15 por KM rodados!')
+print('O carro foi alugado por {} dias, rodou {} KM, no total ficou por R${}'.format(n1,n2,n3))
+input('Aperte ENTER para finalizar')
